@@ -1,9 +1,27 @@
 
 .nav-menu{
     color: var(--black);
-    align-items: flex-end;
+   align-items: center;
+   padding-top: 1.25rem;
+}
+nav .badge-icon{
+    top: -1rem;
+    right: -1rem;
+    left:unset;
 }
 
+.nav-menu .btn{
+    border-radius: 50%;
+    padding:8px 10px;
+}
+
+.icon{
+    color: var(--primary);
+}
+
+nav i{
+    color: var(--primary);
+}
 .btn{
     box-shadow: unset;
     margin:0;
@@ -24,10 +42,12 @@
     gap:1rem;
     width:95%;
     height:100vh;
+    margin:auto;
 
 }
 
 .category{
+    margin-top:1rem;
     display:flex;
     flex-wrap: nowrap;
     justify-content: center;
@@ -98,4 +118,62 @@
         flex-wrap: wrap;
     }
 
+}
+
+
+.productlist-page-container{
+    top:0;
+    gap:1rem;
+    width:95%;
+    height:100vh;
+    row-gap: 3rem;
+    margin: auto;
+}
+
+.product-listing{
+    display:grid;
+    grid-template-columns: 20% 80%;
+    font-size: 1.25rem;
+    position: sticky;
+   
+
+}
+
+.product-display{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+    padding-bottom: 4rem;
+ 
+}
+
+.product-display::-webkit-scrollbar,.sidebar::-webkit-scrollbar{
+    display: none;
+}
+
+.product-display .card{
+    margin:1rem;
+}
+
+.nav{
+    grid-column: 1/span 2;
+    position: sticky;
+    padding:0;
+}
+
+.sidebar{
+  overflow: scroll;
+  overflow-x: hidden;
+
+}
+.sidebar h2{
+    display: inline-block;
+    margin: 1rem 10rem 0 0;
+}
+
+.price-section input{
+   width:200px;
 }
