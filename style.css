@@ -134,6 +134,7 @@ nav i{
     height:100vh;
     row-gap: 3rem;
     margin: auto;
+    font-size: 1.5rem;
 }
 
 .product-listing{
@@ -188,7 +189,7 @@ nav i{
 .cart-container{
     display: grid;
     grid-template-columns: 60% 40%;
-    font-size: 1.5rem;
+
     gap:2rem;
     margin-top: 2rem;
 }
@@ -229,3 +230,12 @@ nav i{
     font-size: 3rem;
     margin-top: 2rem;
 }
+
+.wishlist-container{
+    gap:2rem;
+}
+
+.on-image{
+    top:26rem;
+}
+
