@@ -10,6 +10,12 @@ nav .badge-icon{
     left:unset;
 }
 
+nav input{
+    padding: 1rem;
+    justify-self: center;
+    outline-color: var(--primary);
+}
+
 .nav-menu .btn{
     border-radius: 50%;
     padding:8px 10px;
@@ -35,7 +41,7 @@ nav i{
     filter:brightness(60%);
 
 }
-.container{
+.mainpage-container{
     top:0;
     display:grid;
     grid-template-rows: 5% 10% 50% 30%;
@@ -121,7 +127,7 @@ nav i{
 }
 
 
-.productlist-page-container{
+.container{
     top:0;
     gap:1rem;
     width:95%;
@@ -176,4 +182,50 @@ nav i{
 
 .price-section input{
    width:200px;
+}
+
+
+.cart-container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    font-size: 1.5rem;
+    gap:2rem;
+    margin-top: 2rem;
+}
+
+.cart-items .card-image{
+    height: 149px;
+    align-self: center;
+}
+
+ .cart-items .card-horizontal{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.flex{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+}
+
+.item-quantity{
+    width: 5rem;
+    color: var(--off-white);
+    background-color: var(--primary);
+    border-radius: 3px;
+    padding:7px;
+}
+
+.price-list{
+    width: 63%;
+}
+
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 2rem;
 }
