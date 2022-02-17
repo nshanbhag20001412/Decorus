@@ -126,7 +126,6 @@ nav i{
 
 }
 
-
 .container{
     top:0;
     gap:1rem;
@@ -189,7 +188,6 @@ nav i{
 .cart-container{
     display: grid;
     grid-template-columns: 60% 40%;
-
     gap:2rem;
     margin-top: 2rem;
 }
@@ -238,4 +236,56 @@ nav i{
 .on-image{
     top:26rem;
 }
+
+.auth-container{
+    height:80vh;
+    width:100%;
+    margin: 10% 2rem 2rem 0% ;
+    background-image: url("Home Page\Images\responsive-image.jpg");
+}
+
+.auth-card{
+    width:unset;
+    max-width:600px;
+    margin:auto;
+}
+
+.auth-card .card-footer{
+    margin-left: 18%;
+}
+
+.blue{
+    /* text-emphasis-color: var(--blue); */
+    background-color: unset;
+    color: var(--blue);
+    padding-top: 1rem;
+    font-weight: 400;
+}
+
+.misc{
+    text-align: center;
+    margin-left: 15%;
+}
+
+.auth-card .card-title{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.checkbox{
+    margin-top:2rem;
+}
+
+.auth-card .card .btn{
+    line-height: unset;
+}
+
+.logout{
+ 
+    text-align: center;
+    margin-top: 20vh;
+    font-size: 3rem;
+}
+
 
